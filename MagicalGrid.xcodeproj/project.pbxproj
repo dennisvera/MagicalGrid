@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF7BDD51EA2C7A70062439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7BDD41EA2C7A70062439E /* AppDelegate.swift */; };
+		1BF7BDD71EA2C7A70062439E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7BDD61EA2C7A70062439E /* ViewController.swift */; };
+		1BF7BDDA1EA2C7A70062439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7BDD81EA2C7A70062439E /* Main.storyboard */; };
+		1BF7BDDC1EA2C7A70062439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7BDDB1EA2C7A70062439E /* Assets.xcassets */; };
+		1BF7BDDF1EA2C7A70062439E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7BDDD1EA2C7A70062439E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BF7BDD11EA2C7A70062439E /* MagicalGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF7BDD41EA2C7A70062439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BF7BDD61EA2C7A70062439E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BF7BDD91EA2C7A70062439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF7BDDB1EA2C7A70062439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF7BDDE1EA2C7A70062439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BF7BDE01EA2C7A70062439E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF7BDCE1EA2C7A60062439E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF7BDC81EA2C7A60062439E = {
+			isa = PBXGroup;
+			children = (
+				1BF7BDD31EA2C7A70062439E /* MagicalGrid */,
+				1BF7BDD21EA2C7A70062439E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF7BDD21EA2C7A70062439E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF7BDD11EA2C7A70062439E /* MagicalGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF7BDD31EA2C7A70062439E /* MagicalGrid */ = {
+			isa = PBXGroup;
+			children = (
+				1BF7BDD41EA2C7A70062439E /* AppDelegate.swift */,
+				1BF7BDD61EA2C7A70062439E /* ViewController.swift */,
+				1BF7BDD81EA2C7A70062439E /* Main.storyboard */,
+				1BF7BDDB1EA2C7A70062439E /* Assets.xcassets */,
+				1BF7BDDD1EA2C7A70062439E /* LaunchScreen.storyboard */,
+				1BF7BDE01EA2C7A70062439E /* Info.plist */,
+			);
+			path = MagicalGrid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF7BDD01EA2C7A60062439E /* MagicalGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF7BDE31EA2C7A70062439E /* Build configuration list for PBXNativeTarget "MagicalGrid" */;
+			buildPhases = (
+				1BF7BDCD1EA2C7A60062439E /* Sources */,
+				1BF7BDCE1EA2C7A60062439E /* Frameworks */,
+				1BF7BDCF1EA2C7A60062439E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalGrid;
+			productName = MagicalGrid;
+			productReference = 1BF7BDD11EA2C7A70062439E /* MagicalGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF7BDC91EA2C7A60062439E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Dennisvera;
+				TargetAttributes = {
+					1BF7BDD01EA2C7A60062439E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K24N6NL7FA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1BF7BDCC1EA2C7A60062439E /* Build configuration list for PBXProject "MagicalGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF7BDC81EA2C7A60062439E;
+			productRefGroup = 1BF7BDD21EA2C7A70062439E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF7BDD01EA2C7A60062439E /* MagicalGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF7BDCF1EA2C7A60062439E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF7BDDF1EA2C7A70062439E /* LaunchScreen.storyboard in Resources */,
+				1BF7BDDC1EA2C7A70062439E /* Assets.xcassets in Resources */,
+				1BF7BDDA1EA2C7A70062439E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF7BDCD1EA2C7A60062439E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF7BDD71EA2C7A70062439E /* ViewController.swift in Sources */,
+				1BF7BDD51EA2C7A70062439E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BF7BDD81EA2C7A70062439E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF7BDD91EA2C7A70062439E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BF7BDDD1EA2C7A70062439E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF7BDDE1EA2C7A70062439E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BF7BDE11EA2C7A70062439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BF7BDE21EA2C7A70062439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF7BDE41EA2C7A70062439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = MagicalGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisvera.MagicalGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1BF7BDE51EA2C7A70062439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K24N6NL7FA;
+				INFOPLIST_FILE = MagicalGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dennisvera.MagicalGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF7BDCC1EA2C7A60062439E /* Build configuration list for PBXProject "MagicalGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF7BDE11EA2C7A70062439E /* Debug */,
+				1BF7BDE21EA2C7A70062439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF7BDE31EA2C7A70062439E /* Build configuration list for PBXNativeTarget "MagicalGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF7BDE41EA2C7A70062439E /* Debug */,
+				1BF7BDE51EA2C7A70062439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF7BDC91EA2C7A60062439E /* Project object */;
+}
