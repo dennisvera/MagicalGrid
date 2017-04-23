@@ -8,12 +8,14 @@
 
 import UIKit
 
+let numViewPerRow = 15
+var cells = [String: UIView]()
+
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let numViewPerRow = 15
         let width = view.frame.width / CGFloat(numViewPerRow)
         
         for j in 0...30 {
@@ -23,6 +25,9 @@ class ViewController: UIViewController {
                 cellView.frame = CGRect(x: CGFloat(i) * width, y: CGFloat(j) * width, width: width, height: width)
                 cellView.layer.borderColor = UIColor.black.cgColor
                 view.addSubview(cellView)
+                
+                let key = "\(i)|\(j)"
+                cells[key] = cellView
             }
         }
         
@@ -31,7 +36,20 @@ class ViewController: UIViewController {
     
     func handlePan(gesture: UIPanGestureRecognizer) {
         let location = gesture.location(in: view)
+        let width = view.frame.width / CGFloat(numViewPerRow)
+        let i = Int(location.x / width)
+        let j = Int(location.y / width)
+        print(i, j)
         
+        let key = "\(i)|\(j)"
+        let cellView = cells[key]
+        cellView?.backgroundColor = .white
+        
+//        for subview in view.subviews {
+//            if subview.frame.contains(location) {
+//                subview.backgroundColor = .black
+//            }
+//        }
     }
     
     fileprivate func randomColor() -> UIColor {
